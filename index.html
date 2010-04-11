@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>css3 generator</title>
+	<link rel="stylesheet" href="stylesheets/stylesheets.css" type="text/css" media="all" charset="utf-8" />
+	<style type="text/css" media="screen">
+	  body {
+	    font: 12px/24px "Lucida Grande";
+	  }
+	  
+    .div {
+	    padding: 10px;
+	    background: red;
+	    margin: 20px;
+	  }
+	  
+	</style>
+</head>
+
+<div id="test" class="div">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<div id="test2" class="div">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<form class="ld-hud ld-forms">
+  <header>
+    <h1>lifedraft.de</h1>
+  </header>
+
+  <ul class="ld-properties ld-layout-wide ld-layout-column-0">
+    <li class="js-property-add">
+      <input type="button" class="ld-sprite ld-sprite-plus js-property-add" data-target=".ld-layout-column-1" />
+      <label>
+        <select class="js-type-source js-type-select">
+          <!-- 
+          <option value="property-box-shadow">box-shadow</option>
+          <option value="property-text-shadow">text-shadow</option>
+          <option value="property-column">columns</option> 
+          -->
+        </select>
+        <span class="ld-forms-left">CSS-Property</span>
+      </label>
+    </li>
+  </ul>
+  
+  <ul class="ld-properties ld-layout-column ld-layout-column-1">
+    
+    <!--
+    <li class="property-border-radius ld-state-hidden ld-properties" data-target=".ld-layout-column-2.js-type-border-radius">
+      <input type="button" class="ld-sprite ld-sprite-minus" data-type="remove" />
+      <label><span class="js-type-title">border-radius</span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle" data-type="toggle" />
+    </li>
+    <li class="property-box-shadow ld-state-hidden ld-properties" data-target=".ld-layout-column-2.js-type-box-shadow">
+      <input type="button" class="ld-sprite ld-sprite-minus" data-type="remove" />
+      <label><span class="js-type-title">box-shadow</span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle" data-type="toggle" />
+    </li>
+    <li class="property-text-shadow ld-state-hidden ld-properties" data-target=".ld-layout-column-2.js-type-text-shadow">
+      <input type="button" class="ld-sprite ld-sprite-minus" data-type="remove" />
+      <label><span class="js-type-title">text-shadow</span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle" data-type="toggle" />
+    </li>
+    <li class="property-column ld-state-hidden ld-properties" data-target=".ld-layout-column-2.js-type-column">
+      <input type="button" class="ld-sprite ld-sprite-minus" data-type="remove" />
+      <label><span class="js-type-title">column</span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle" data-type="toggle" />
+    </li>
+    -->
+    
+  </ul>
+  
+  <!--
+  <ul class="ld-properties ld-layout-column ld-state-hidden ld-layout-column-2 js-type-box-shadow js-type-section js-type-target" data-preprocess="box_shadow">
+    <li class="js-type-text">
+      <label><span class="js-type-title">horizontal length</span> <input type="text" name="box-shadow-horizontal" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">vertical length</span> <input type="text" name="box-shadow-vertical" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">blur</span> <input type="text" name="box-shadow-blur" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">color</span> <input type="text" name="box-shadow-color" size="5" value=""/></label>
+    </li>
+  </ul>
+  <ul class="ld-properties ld-layout-column ld-state-hidden ld-layout-column-2 js-type-text-shadow js-type-section js-type-target" data-preprocess="text_shadow">
+    <li class="js-type-text">
+      <label><span class="js-type-title">horizontal length</span> <input type="text" name="text-shadow-horizontal" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">vertical length</span> <input type="text" name="text-shadow-vertical" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">blur</span> <input type="text" name="text-shadow-blur" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">color</span> <input type="text" name="text-shadow-color" size="5" value=""/></label>
+    </li>
+  </ul>
+  <ul class="ld-properties ld-layout-column ld-state-hidden ld-layout-column-2 js-type-column js-type-section js-type-target" data-preprocess="column">
+    <li class="js-type-text">
+      <label><span class="js-type-title">columns count</span> <input type="text" name="column-count" size="5" value=""/></label>
+    </li>
+    <li class="js-type-text">
+      <label><span class="js-type-title">columns gap</span> <input type="text" name="column-gap" size="5" value=""/></label>
+    </li>
+  </ul>
+  -->
+  
+  <section class="ld-state-hidden">
+    <textarea class="js-type-export-target" cols="1" rows="1"></textarea>
+  </section>
+  
+  <footer>
+    <a class="ld-forms-button js-type-inspect ld-layout-left">Inspect</a>
+    <a class="ld-forms-button js-type-export">Export</a>
+  </footer>
+
+  <!-- <ul class="ld-properties ld-layout-column ld-layout-column-3"></ul> -->
+  
+  <ul class="js-templates" style="display:none;">
+
+    <li class="ld-properties js-type-label-remove-more ld-state-hidden">
+      <input type="button" class="ld-sprite ld-sprite-minus" data-type="remove" />
+      <label><span class="js-type-title"></span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle js-type-toggle" data-type="toggle" />
+    </li>
+    
+    <li class="js-type-select">
+      <label>
+        <select class="js-type-source"></select>
+        <span class="ld-forms-left js-type-title"></span>
+      </label>
+    </li>
+
+    <li class="js-type-select-add">
+      <input type="button" class="ld-sprite ld-sprite-plus" />
+      <label>
+        <select class="js-type-source"></select>
+        <span class="ld-forms-left js-type-title"></span>
+      </label>
+    </li>
+
+    <li class="js-type-label">
+      <label><span class="js-type-title"></span></label>
+    </li>
+
+    <li class="js-type-label-remove">
+      <input type="button" class="ld-sprite ld-sprite-minus" />
+      <label><span class="js-type-title"></span></label>
+    </li>
+
+    <li class="js-type-label-more">
+      <label><span class="js-type-title"></span></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle js-type-toggle" />
+    </li>
+
+    <li class="ld-properties js-type-text">
+      <label><span class="js-type-title"></span> <input type="text" class="js-type-name" size="18" value=""/></label>
+    </li>
+
+    <li class="js-type-text-remove">
+      <input type="button" class="ld-sprite ld-sprite-minus" />
+      <label><span class="js-type-title">-webkit-animation</span> <input type="text" class="js-type-target" size="18" value="" /></label>
+    </li>
+
+    <li class="js-type-text-more">
+      <label><span class="js-type-title"></span> <input type="text" class="js-type-target" size="18" value="" /></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle js-type-toggle" />
+    </li>
+
+    <li class="js-type-text-remove-more">
+      <input type="button" class="ld-sprite ld-sprite-minus" />
+      <label><span class="js-type-title"></span> <input type="text" class="js-type-target" size="18" value="" /></label>
+      <input type="button" class="ld-sprite ld-sprite-toggle js-type-toggle" />
+    </li>
+  </ul>
+  
+  <ul class="ld-properties ld-layout-column ld-state-hidden ld-layout-column-2 js-type-section js-type-target js-template"></ul>
+  
+</form>
+
+<div id="ld-hud-inspector-top"></div>
+<div id="ld-hud-inspector-right"></div>
+<div id="ld-hud-inspector-bottom"></div>
+<div id="ld-hud-inspector-left"></div>
+
+  
+<script src="javascript/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/ld_css_unite.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/applications.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/application.ui.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/application.model.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/application.preprocess.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/application.draggable.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

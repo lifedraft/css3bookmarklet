@@ -1,0 +1,52 @@
+.ld-sprite {
+  background: url("images/sprite.png") no-repeat;
+  border: none;
+}
+
+.ld-sprite-right {
+  width:  13px;
+  height: 13px;
+  background-position: 0 0;
+}
+
+.ld-sprite-right:hover {
+  background-position: 0 -13px;
+}
+
+.ld-sprite-minus {
+  width:  13px;
+  height: 13px;
+  background-position: 0 -78px;
+}
+
+.ld-sprite-minus:hover {
+  background-position: 0 -91px;
+}
+
+.ld-sprite-plus {
+  width:  13px;
+  height: 13px;
+  background-position: 0 -52px;
+}
+
+.ld-sprite-plus:hover {
+  background-position: 0 -65px;
+}
+
+.ld-sprite-toggle {
+  width: 13px;
+  height: 13px;
+  background-position: 0 0;
+}
+
+.ld-sprite-toggle:hover {
+  background-position: 0 -13px;
+}
+
+.ld-state-active > .ld-sprite-toggle {
+  background-position: 0 -26px;
+}
+
+.ld-state-active > .ld-sprite-toggle:hover {
+  background-position: 0 -39px;
+}

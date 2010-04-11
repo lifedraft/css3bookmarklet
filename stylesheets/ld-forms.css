@@ -1,0 +1,76 @@
+.ld-forms input {
+  display: inline-block;
+}
+
+.ld-forms input[type=text] {
+  -webkit-border-radius: 3px;
+  border: none;
+  font-size: 10px;
+  text-align: center;
+  background: none, -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.5)));
+  border: 1px solid #555;
+  padding: 4px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.ld-forms input[type=text]:hover {
+  border-color: #888;
+}
+
+.ld-forms input[type=text]:focus {
+  border-color: #fcfcfc;
+}
+
+.ld-forms input[type=range] {
+  height: 6px;
+}
+
+.ld-forms input[type=button] {
+  cursor: pointer;
+}
+
+.ld-forms input.ld-layout-right {
+  margin-right: 0;
+}
+
+.ld-forms label span {
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.ld-forms .ld-forms-left {
+  text-align: left;
+  width: auto;
+}
+
+.ld-forms select {
+  width: 130px;
+  margin-right: 10px;
+}
+
+.ld-forms .ld-forms-button {
+  background: -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.5)));
+  -webkit-border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0px 8px;
+  text-shadow: #000 1px 1px 1px;
+  font-size: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: #000 2px 2px 2px;
+  line-height: 16px;
+}
+
+.ld-forms .ld-forms-button:hover {
+  background: #000;
+  -webkit-box-shadow: #000 0px 0px 10px;
+}
+
+.ld-forms textarea {
+  width: 100%;
+  height: 200px;
+}

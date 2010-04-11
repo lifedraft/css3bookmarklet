@@ -1,0 +1,7 @@
+.ld-hud .ld-state-hidden {
+  display: none;
+}
+
+.ld-hud .ld-state-visible {
+  display: block;
+}

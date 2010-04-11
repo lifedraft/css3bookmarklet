@@ -1,0 +1,26 @@
+.ld-layout-right {
+  float: right;
+}
+
+.ld-layout-left {
+  float: left;
+}
+
+.ld-layout-column {
+  width: 325px;
+  float: left;
+  border-left: 1px solid #545454;
+  margin-bottom: -20000px;
+  padding-bottom: 20000px;
+  position: relative;
+}
+
+.ld-layout-column-1 {
+  border-left: none;
+  z-index: 100;
+}
+
+.ld-layout-column-2 {
+  background: rgba(0,0,0,1);
+  z-index: 99;
+}

@@ -1,0 +1,30 @@
+.ld-properties {
+  
+}
+
+.ld-properties > li {
+  display: block;
+  vertical-align: middle;
+  background: -webkit-gradient(linear, 0% 70%, 0% 140%, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+  border-bottom: 1px solid #545454;
+  padding: 6px 10px;
+  line-height: 20px;
+}
+
+.ld-properties > li:hover {
+  background: -webkit-gradient(linear, 0% 70%, 0% 120%, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,1)));
+}
+
+.ld-properties li.ld-state-active {
+  background: rgba(0,0,0,1);
+}
+
+.ld-properties input[type=button] {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
+
+.ld-properties input[type=button].ld-layout-right {
+  top: 4px;
+}
